@@ -62,7 +62,19 @@ html {
     line-height: 25px;
 }
 
-.sec-four p {}
+.fas,
+.far {
+    font-size: 50px;
+    color: #00bcd4!important;
+}
+
+.card-content h4 {
+    font-size: 25px;
+}
+
+.card-content p {
+    font-size: 16px;
+}
 
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
