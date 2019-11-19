@@ -101,7 +101,11 @@ html {
 
 @media screen and (min-width: 1025px) and (max-width: 2560px) {}
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .sec-four p {
+        padding: 0px;
+    }
+}
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .content-head h1 {
@@ -109,6 +113,9 @@ html {
     }
     .content-head h3 {
         font-size: 20px;
+    }
+    .sec-four p {
+        padding: 0px;
     }
 }
 
@@ -118,6 +125,9 @@ html {
     }
     .content-head h3 {
         font-size: 20px;
+    }
+    .sec-four p {
+        padding: 0px;
     }
 }
 
